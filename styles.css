@@ -1,11 +1,6 @@
 
-/* ================================================= */
-/* 1. Шрифтові стилі та @font-face (styles.css) */
-/* ================================================= */
-
 @font-face {
     font-family: 'CustomSerif';
-    /* Змінено шлях: тепер шрифт шукається безпосередньо у папці LR6 */
     src: url('CustomSerif.woff2') format('woff2'),
          url('CustomSerif.woff') format('woff');
     font-display: swap;
@@ -30,8 +25,6 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* ... Решта CSS-коду залишається без змін ... */
 
 .main-title {
     /* 17. Тінь тексту */
